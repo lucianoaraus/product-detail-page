@@ -11,7 +11,7 @@ function App() {
 
       <div className='MainContainer'>
         <div className='ProductPreview'>
-          <img src='https://imgur.com/iOeUBV7.png' alt='Product Preview'/>
+          <img src='https://m.media-amazon.com/images/I/610q610KVfL._AC_SX569_.jpg' alt='Product Preview'/>
         </div>
 
         <div className='ProductDetail'>
@@ -23,23 +23,15 @@ function App() {
           <div className='ColorContainer'>
             <h2 className='SubTittle'>Select Color</h2>
             <div className='ColorOptions'>
-              <img src='https://imgur.com/PTgQlim.png'/>
-              <img src='https://imgur.com/Mplj1YR.png'/>
-              <img src='https://imgur.com/xSIK4M8.png'/>  
+              <img src='https://m.media-amazon.com/images/I/610q610KVfL._AC_SX569_.jpg' alt='Product Preview'/>
+              <img src='https://m.media-amazon.com/images/I/71jiGaztijL._AC_SX569_.jpg'/>
+              <img src='https://m.media-amazon.com/images/I/61L5Jko2QqL._AC_SX569_.jpg'/>
+              <img src='https://m.media-amazon.com/images/I/61tH7Ln5xJL._AC_SX569_.jpg'/>  
             </div>
-          </div>
-
-          <div className='FeaturesContainer'>
-            <h2 className='SubTittle'>Features</h2>
-            <div className='FeaturesOptions'>
-              <button className='Btn'>Time</button>
-              <button className='Btn'>Heart Rate</button>
-            </div>
-            
           </div>
 
           <div className='BuyContainer'>
-            <button className='Btn'>Buy Now</button>
+            <button type="button" class="btn btn-success">Buy Now</button>
           </div>
 
         </div>

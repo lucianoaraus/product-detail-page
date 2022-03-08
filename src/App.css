@@ -30,7 +30,7 @@ body {
 
 .ColorContainer {
   width: 100%;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .ColorOptions {
@@ -39,30 +39,36 @@ body {
 }
 
 .ColorOptions > img {
-  width: 50%;
+  width: 100%;
+  max-width: 80px;
   display: flex;
+  border: 2px solid #eba421;
+  border-radius: 8px;
+  padding: 12px;
+  margin-right: 8px;
 }
 
 .ProductPreview {
   width: 50%;
-  background-color: greenyellow;
+  /* background-color: greenyellow; */
 }
 
 .ProductPreview > img {
   width: 100%;
+  padding: 12px 96px;
 }
 
 .ProductDetail {
   width: 50%;
-  background-color: orange;
+  /* background-color: orange; */
 }
 
 .BuyContainer {
   width: 100%;
-  background-color: purple;
+  /* background-color: purple; */
 }
 
-.FeaturesContainer{
-  width: 100%;
-  background-color: aquamarine;
+
+.btn {
+  margin-top: 12px;
 }
