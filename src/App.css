@@ -1,38 +1,68 @@
-.App {
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Topbar {
+  width: 100%;
+  background-color: #282c34;
+  padding: 24px 48px 12px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Topbar > img {
+  width: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.AppFooter {
+  width: 100%;
   background-color: #282c34;
-  min-height: 100vh;
+  padding: 24px 48px 12px;
+  text-align: center;
+  color: #bbb;
+}
+
+.MainContainer {
+  width: 100%;
+  padding: 24px 48px 24px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.ColorContainer {
+  width: 100%;
+  background-color: red;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ColorOptions {
+  width: 50%;
+  display: flex;
+}
+
+.ColorOptions > img {
+  width: 50%;
+  display: flex;
+}
+
+.ProductPreview {
+  width: 50%;
+  background-color: greenyellow;
+}
+
+.ProductPreview > img {
+  width: 100%;
+}
+
+.ProductDetail {
+  width: 50%;
+  background-color: orange;
+}
+
+.BuyContainer {
+  width: 100%;
+  background-color: purple;
+}
+
+.FeaturesContainer{
+  width: 100%;
+  background-color: aquamarine;
 }

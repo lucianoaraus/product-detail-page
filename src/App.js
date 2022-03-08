@@ -1,23 +1,53 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="AppHeader">
+        <nav className='Topbar'>
+          <img src='http://pngimg.com/uploads/amazon/amazon_PNG25.png' alt='Amazon Logo'/>
+        </nav>
       </header>
+
+      <div className='MainContainer'>
+        <div className='ProductPreview'>
+          <img src='https://imgur.com/iOeUBV7.png' alt='Product Preview'/>
+        </div>
+
+        <div className='ProductDetail'>
+          <div className='TopText'>
+            <h1 className='Tittle'>FitBit 19 - The Smartest Watch</h1>
+            <p className='ProductDescription'>Meet Fitbit 19 — a smartwatch that elevates every moment. Use your voice to create alarms, set bedtime reminders, check the weather or start an exercise with Amazon Alexa Built-in, plus see the time or your stats at a glance with always-on display mode.* Take your look from the gym to the office with its modern and versatile design. Play your favorite music and podcasts with Spotify.** Plus get Fitbit Pay™, a daily Sleep Score, notifications and 24/7 heart rate for an experience that revolves around you.</p>
+          </div>
+
+          <div className='ColorContainer'>
+            <h2 className='SubTittle'>Select Color</h2>
+            <div className='ColorOptions'>
+              <img src='https://imgur.com/PTgQlim.png'/>
+              <img src='https://imgur.com/Mplj1YR.png'/>
+              <img src='https://imgur.com/xSIK4M8.png'/>  
+            </div>
+          </div>
+
+          <div className='FeaturesContainer'>
+            <h2 className='SubTittle'>Features</h2>
+            <div className='FeaturesOptions'>
+              <button className='Btn'>Time</button>
+              <button className='Btn'>Heart Rate</button>
+            </div>
+            
+          </div>
+
+          <div className='BuyContainer'>
+            <button className='Btn'>Buy Now</button>
+          </div>
+
+        </div>
+      </div>
+      <footer className="AppFooter">
+        Footer
+      </footer>
+
     </div>
   );
 }
