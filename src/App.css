@@ -23,9 +23,45 @@ body {
 }
 
 .MainContainer {
+  display: flex;
+  flex-wrap: wrap; /*cuando se llega al ancho minimo, la descripcion pasa a la parte inferior*/
   width: 100%;
   padding: 24px 48px 24px;
+}
+
+.ProductPreview {
   display: flex;
+  flex-wrap: wrap; /*cuando se llega al ancho minimo, la descripcion pasa a la parte inferior*/
+  min-width: 300px;
+  width: 50%;
+  align-items: center;
+}
+
+.ProductPreview > .WatchImage {
+  width: 100%;
+  padding: 12px 96px;
+}
+
+.WatchImage {
+  display: flex;
+}
+
+.ColorOptions > .WatchImage {
+  display: flex;
+  width: 100%;
+  padding: 12px;
+  margin-right: 6px;
+  max-width: 80px;
+  border: 2px solid #eba421;
+  border-radius: 8px;
+  
+}
+
+.ImageButton {
+  border: 2px solid #eba421;
+  border-radius: 8px;
+  margin-right: 6px;
+  background-color: #fff;
 }
 
 .ColorContainer {
@@ -34,28 +70,15 @@ body {
 }
 
 .ColorOptions {
-  width: 50%;
   display: flex;
+  flex-wrap: wrap;
 }
 
-.ColorOptions > img {
-  width: 100%;
+.ColorButton{
   max-width: 80px;
+  padding: 10px;
   display: flex;
-  border: 2px solid #eba421;
-  border-radius: 8px;
-  padding: 12px;
-  margin-right: 6px;
-}
-
-.ProductPreview {
-  width: 50%;
   /* background-color: greenyellow; */
-}
-
-.ProductPreview > img {
-  width: 100%;
-  padding: 12px 96px;
 }
 
 .ProductDetail {
@@ -67,7 +90,6 @@ body {
   width: 100%;
   /* background-color: purple; */
 }
-
 
 .btn {
   margin-top: 12px;
